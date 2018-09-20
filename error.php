@@ -5,10 +5,12 @@ if (!isset($error)) { //This should only happen if we straight navigate here.
     include_once("head.php"); //If we're navigating here manually, we need this
 }
 ?>
+<main>
+    <div id="main-container" class="background-fade">
         <p class='red-text'>
             <b><?php echo "ERROR: " . $error; //Tell us why we're on this page ?></b>
         </p>
-        </div>
+    </div>
 </main>
 
 <?php
