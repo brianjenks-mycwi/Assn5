@@ -1,7 +1,5 @@
 <?php include('head.php'); ?>
 <script>setActive('admin');</script>
-<main>
-    <div id="main-container" class="background-fade">
         <?php
             include_once('./Model/login.php'); //Our source to open our database
             include_once('./Model/contactDB.php'); // The classes we require
@@ -31,6 +29,9 @@
 //            }
             
         ?>
+<main>
+    <div id="main-container" class="background-fade">
+
         
         <form action='./fixItFelix.php' method='post'>
             <label>Select an employee number: </label>
